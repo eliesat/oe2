@@ -1,3 +1,4 @@
+#!/bin/sh
 
 if [ -f /usr/lib/enigma2/python/Components/Converter/ServiceInfo.pyc ]; then
 cp -f '/usr/lib/enigma2/python/Components/Converter/ServiceInfo.pyc' '/usr/lib/enigma2/python/Screens'

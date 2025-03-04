@@ -5,6 +5,4 @@ mkswap /media/hdd/swapfile
 chmod 0777 /media/hdd/swapfile 
 swapon /media/hdd/swapfile 
 
-echo -e "/media/hdd/swapfile \tswap \tswap \tdefaults \t0 \t0" >> /etc/fstab 
-
-exit
+echo -e "/media/hdd/swapfile \tswap \tswap \tdefaults \t0 \t0" >> /etc/fstab

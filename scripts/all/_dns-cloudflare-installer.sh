@@ -7,5 +7,3 @@ fi
 
 echo "nameserver 1.1.1.1" > /etc/resolv.conf; echo "nameserver 1.0.0.1" >> /etc/resolv.conf; echo "> done
 > your device will restart now please wait..."; sleep 3s; killall -9 enigma2
-
-exit 0

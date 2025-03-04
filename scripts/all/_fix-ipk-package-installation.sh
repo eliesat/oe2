@@ -18,8 +18,6 @@ rm -rf /tmp/*.tar.gz
 
 opkg update
 
-echo " your stb will reboot now plz wait... "
+echo " your device will reboot now plz wait... "
 
 reboot
-
-exit 0

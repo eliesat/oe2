@@ -24,6 +24,4 @@ chmod 755 /etc//cron/scripts/*.sh
 fi
 
 echo "> permissions allowed & your scripts are ready to use"
-sleep 3s
-
-exit 0
+sleep 3

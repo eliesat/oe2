@@ -10,10 +10,10 @@ echo "$LINE1"
 echo "> Installing dependencies be patient ...
 > it takes 2 to 15 minutes please wait..."
 echo "$LINE1"
-sleep 5s
+sleep 5
 
 echo "> start of process ..."
-sleep 3s
+sleep 3
 
 # Check python
 pyVersion=$(python -c"from sys import version_info; print(version_info[0])")
@@ -99,12 +99,12 @@ rm -rf /var/lib/opkg/lists/*
 rm -rf /run/opkg.lock
 echo "> cache is cleaned...
 updating feeds please wait..."
-sleep 3s
+sleep 3
 
 opkg update > /dev/null 2>&1
 
 echo "> end of process...
 > your device will reboot now...please wait..."
-sleep 3s 
+sleep 3
 
 reboot
