@@ -9,7 +9,4 @@ else
 image=''
 fi
 [[ ! -z "$image" ]] && echo -e "> image: $image"
-sleep 3s
-
-exit 0
-
+sleep 3

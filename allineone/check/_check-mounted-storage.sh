@@ -11,7 +11,4 @@ else
 echo "> mounted storage not found"
 fi
 echo "> mounted storage: $dir "
-sleep 3s
-
-exit 0
-
+sleep 3

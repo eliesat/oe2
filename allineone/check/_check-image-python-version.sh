@@ -3,7 +3,4 @@
 #python version
 pythonversion=$(python -c "import platform; print(platform.python_version())")
 echo "> python version: $pythonversion "
-sleep 3s
-
-exit 0
-
+sleep 3

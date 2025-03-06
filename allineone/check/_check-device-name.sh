@@ -2,9 +2,6 @@
 
 #device
 device=$(head -n 1 /etc/hostname)
-sleep 3s
+sleep 3
 echo "> device: $device "
-sleep 3s
-
-exit 0
-
+sleep 3

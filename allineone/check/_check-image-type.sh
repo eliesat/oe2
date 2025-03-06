@@ -8,6 +8,4 @@ it=OpenSource
 fi
 
 echo "> image type: $it"
-sleep 3s
-
-exit 0
+sleep 3

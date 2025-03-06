@@ -3,11 +3,8 @@
 # Check  internet connectivity
 if ping -q -c 1 -W 1 google.com >/dev/null; then
 echo "> internet: connected"
-sleep 3s
+sleep 3
 else
 echo "> internet:no connection"
-sleep 3s
+sleep 3
 fi
-
-exit 0
-

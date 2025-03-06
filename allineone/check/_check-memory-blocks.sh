@@ -2,5 +2,3 @@
 
 mem=$(df -a)
 echo "$mem"
-
-exit 0
